@@ -1,4 +1,5 @@
-include "main.h"
+#include <stdio.h>
+#include "main.h"
 /**
  * main - check desc 
  * 
@@ -7,9 +8,10 @@ include "main.h"
  */
 int main(void)
 {
-	char ch = '_putchar';
+        int c; 
+	char ch[10] = "_puchtar";
 
-	_putchar(ch); 
-
+	putchar(ch[c]); 
+	
 	return (0);
 }
