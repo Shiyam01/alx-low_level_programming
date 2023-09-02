@@ -8,10 +8,11 @@
  */
 int main(void)
 {
-	int c=0; 
-	char ch[10] = "_puchtar";
+        char word[10] = "_puchtar";
+        int c;
+        
+        for (c = 0; c < 8; c++) 
+                 putchar(word[c]);
 
-	putchar(ch[c]); 
-	
-	return (0);
+        return (0);
 }
