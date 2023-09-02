@@ -1,17 +1,16 @@
 #include <stdio.h>
 #include "main.h"
 /**
- * main - check desc 
- * 
- * desc : the program prints _putchar, followed by a new line
- * return : 0
- */
+* main - check desc 
+* desc : the program prints _putchar, followed by a new line
+* return : 0
+*/
 int main(void)
 {
-        char word[8] = "_puchtar";
+	char word[9] = "_puchtar";
         int c;
         
-        for (c = 0; c <8 ; c++) 
+        for (c = 0; c < 9; c++) 
                  putchar(word[c]);
 
         return (0);
