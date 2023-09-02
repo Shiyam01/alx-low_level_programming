@@ -9,9 +9,8 @@ int main(void)
 {
 	char word[9] = "_puchtar";
         int c;
-        
-        for (c = 0; c < 9; c++) 
-                 putchar(word[c]);
-
-        return (0);
+        for (c = 0; c < 9; c++)	
+		putchar(word[c]);
+	putchar('\n');
+	return (0);
 }
