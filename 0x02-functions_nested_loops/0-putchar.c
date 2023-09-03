@@ -2,16 +2,19 @@
 #include "main.h"
 /**
  * main - Entry point
- *
- * Description : the program prints _putchar, followed by a new line
- * return : Always 0 (Sucess)
+ * Description: prints _putchar to stdout
+ * Return: Always 0 (Success)
  */
 int main(void)
 {
-	char word[9] = "_putchar";
-		int c;
-		for (c = 0; c < 9; c++)	
-		putchar(word[c]);
-
-	return 0;
+	putchar('_');
+	putchar('p');
+	putchar('u');
+	putchar('t');
+	putchar('c');
+	putchar('h');
+	putchar('a');
+	putchar('r');
+	putchar('\n');
+	return (0);
 }
