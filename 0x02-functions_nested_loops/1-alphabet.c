@@ -3,7 +3,7 @@
 /**
  * main - Entry point
  * Description: print the alphabet, in lowercase, followed by a new line
- * Return : nothing
+ * Return: 0
  */
 
 int main (void)
@@ -14,5 +14,5 @@ int main (void)
                 putchar(c);
         }
         putchar('\n');
-
+	return(0);
 }
