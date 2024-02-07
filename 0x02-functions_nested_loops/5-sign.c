@@ -3,7 +3,7 @@
 /**
  * print_sign - a function that prints the sing of a number (other than 0)
  * @n : the number whose sign to be checked
- * Return : returns 1 if n > 0, returns -1 if n < 0, returns 0 if n = 0
+ * Return value: 1 if n > 0, -1 if n < 0,i if n = 0
  */
 
 int print_sign(int n)
@@ -23,4 +23,5 @@ int print_sign(int n)
 		_putchar(48);
 		return (0);
 	}
+	return (0);
 }
